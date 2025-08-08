@@ -1,4 +1,6 @@
-export default function Testimonials() {
+import React from 'react';
+
+const Testimonials: React.FC = () => {
   return (
     <section className="bg-light py-5 mt-5">
       <div className="container">
@@ -25,3 +27,5 @@ export default function Testimonials() {
     </section>
   );
 }
+
+export default Testimonials;

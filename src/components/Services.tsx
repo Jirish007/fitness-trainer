@@ -1,4 +1,6 @@
-export default function Services() {
+import React from 'react';
+
+const Services: React.FC = () => {
   return (
     <section className="container my-5">
       <h2 className="mb-4 text-center">Training Services</h2>
@@ -21,4 +23,6 @@ export default function Services() {
       </div>
     </section>
   );
-}
+};
+
+export default Services;

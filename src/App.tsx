@@ -3,9 +3,10 @@ import Hero from "./components/Hero";
 import Services from "./components/Services";
 import AboutCoach from "./components/AboutCoach";
 import Gallery from "./components/Gallery";
+
 const Testimonials = React.lazy(() => import("./components/Testimonials"));
 
-export default function App() {
+const App: React.FC = () => {
   return (
     <>
       <Hero />
@@ -17,4 +18,6 @@ export default function App() {
       </Suspense>
     </>
   );
-}
+};
+
+export default App;

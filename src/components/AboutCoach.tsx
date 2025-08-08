@@ -1,6 +1,7 @@
+import React from 'react';
+import coach from '../assets/coach.webp';
 
-import coach from '../assets/coach.webp'
-export default function AboutCoach() {
+const AboutCoach: React.FC = () => {
   return (
     <section className="container my-5">
       <div className="row align-items-center">
@@ -26,4 +27,6 @@ export default function AboutCoach() {
       </div>
     </section>
   );
-}
+};
+
+export default AboutCoach;

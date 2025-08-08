@@ -1,14 +1,15 @@
+import React from 'react';
+import hero from '../assets/hero.webp';
 
-import hero from '../assets/hero.webp'
-export default function Hero() {
+const Hero: React.FC = () => {
   return (
     <header
       className="text-white text-center py-5 mb-5"
       style={{
         backgroundImage: `url(${hero})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        minHeight: "400px",
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        minHeight: '400px',
       }}
     >
       <div className="container">
@@ -18,4 +19,6 @@ export default function Hero() {
       </div>
     </header>
   );
-}
+};
+
+export default Hero;

@@ -1,9 +1,8 @@
+import React from 'react';
+import session from '../assets/session.webp';
+import session2 from '../assets/session2.webp';
 
-import session from '../assets/session.webp'
-
-import session2 from '../assets/session2.webp'
-
-export default function Gallery() {
+const Gallery: React.FC = () => {
   return (
     <section className="container my-5">
       <h2 className="text-center mb-4">Training Gallery</h2>
@@ -25,4 +24,6 @@ export default function Gallery() {
       </div>
     </section>
   );
-}
+};
+
+export default Gallery;
